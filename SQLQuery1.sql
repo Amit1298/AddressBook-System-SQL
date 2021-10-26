@@ -42,3 +42,9 @@ where states = 'UP';
 
 select *from Address_Book1
 where city like '%h';
+
+Alter table Address_Book1
+ADD department varchar(50);
+
+update Address_Book1
+set department = 'Account';
