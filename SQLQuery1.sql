@@ -25,3 +25,9 @@ where first_name = 'Krishna';
 
 delete from Address_Book1 
 where first_name = 'Lala';
+
+select *from Address_Book1
+where city = 'Agra';
+
+select *from Address_Book1
+where states = 'UP';
