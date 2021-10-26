@@ -31,3 +31,11 @@ where city = 'Agra';
 
 select *from Address_Book1
 where states = 'UP';
+
+select COUNT(city)
+from Address_Book1
+where city = 'Agra';
+
+select COUNT(states)
+from Address_Book1
+where states = 'UP';
