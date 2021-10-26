@@ -18,3 +18,7 @@ insert into Address_Book1 values ('Satty','Thakur','madhunagar','Agra','UP',2820
 insert into Address_Book1 values ('Lala','Gupta','cantt','Mathura','UP',282034,9634139,'lalagmail.com');
 
 select *from Address_Book1;
+
+update Address_Book1
+set city = 'Aligarh'
+where first_name = 'Krishna';
