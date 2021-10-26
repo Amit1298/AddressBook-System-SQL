@@ -1,0 +1,2 @@
+create database Address_Book_service;
+use Address_Book_Service;
