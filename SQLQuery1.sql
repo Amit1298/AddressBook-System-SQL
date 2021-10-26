@@ -39,3 +39,6 @@ where city = 'Agra';
 select COUNT(states)
 from Address_Book1
 where states = 'UP';
+
+select *from Address_Book1
+where city like '%h';
