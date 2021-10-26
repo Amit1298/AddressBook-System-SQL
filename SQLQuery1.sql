@@ -10,3 +10,11 @@ states varchar(50),
 zip int,
 phone_number int,
 email varchar(50));
+
+insert into Address_Book1 values ('Amit','Kumar','defencecolony','Agra','UP',282001,9897139,'amitkrgmail.com');
+insert into Address_Book1 values ('Krishna','Kumari','defencecolony','Hathras','UP',282013,437139,'krishnagmail.com');
+insert into Address_Book1 values ('Sumit','Kumar','defencecolony','Agra','UP',282001,6597139,'sumitkrgmail.com');
+insert into Address_Book1 values ('Satty','Thakur','madhunagar','Agra','UP',282004,3427139,'sattygmail.com');
+insert into Address_Book1 values ('Lala','Gupta','cantt','Mathura','UP',282034,9634139,'lalagmail.com');
+
+select *from Address_Book1;
