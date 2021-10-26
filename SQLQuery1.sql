@@ -22,3 +22,6 @@ select *from Address_Book1;
 update Address_Book1
 set city = 'Aligarh'
 where first_name = 'Krishna';
+
+delete from Address_Book1 
+where first_name = 'Lala';
